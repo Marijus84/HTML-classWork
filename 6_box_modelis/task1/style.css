@@ -16,8 +16,7 @@
 
 .third {
   background-color: aqua;
-  padding: 50px;
-  border: 4px solid red;
+  border: 5px solid red;
   width: 200px;
   height: 250px;
   box-sizing: border-box;
