@@ -15,3 +15,44 @@ tr:nth-child(even) td:nth-child(odd) {
 tr:nth-child(odd) td:nth-child(even) {
   background-color: black;
 }
+
+/* task 2 */
+h1:first-child::before,
+h1:first-child::after {
+  font-family: FontAwesome;
+  content: "\f00d";
+  padding: 1rem;
+}
+
+h1:last-child::before,
+h1:last-child::after {
+  font-family: FontAwesome;
+  content: "\f1e9";
+  padding: 1rem;
+  color: red;
+}
+
+/* task 3 */
+a {
+  text-transform: uppercase;
+  font-size: larger;
+  text-decoration: none;
+}
+
+a:not(a:first-child) {
+  color: grey;
+}
+
+a:not(a:first-child)::before {
+  content: " // ";
+}
+
+a:first-child {
+  color: orange;
+}
+
+body section:last-of-type {
+  padding: 2rem;
+  background-color: black;
+  text-align: center;
+}
