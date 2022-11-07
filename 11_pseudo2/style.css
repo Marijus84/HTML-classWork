@@ -66,3 +66,11 @@ input:read-only {
 input[type="radio"]:checked {
   height: 3rem;
 }
+
+input:valid {
+  border: 10px solid green;
+}
+
+input:invalid {
+  border: 10px solid red;
+}
