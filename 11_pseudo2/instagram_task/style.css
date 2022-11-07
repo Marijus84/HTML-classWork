@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(233, 230, 230);
+  text-align: center;
+}
+
+#login {
+  background-color: white;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+button,
+input {
+  display: block;
+  width: 70%;
+}
+
+input {
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+
+button {
+  color: white;
+  margin: 1rem auto;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.1);
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: 900;
+}
